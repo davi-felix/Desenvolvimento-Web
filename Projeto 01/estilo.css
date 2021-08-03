@@ -1,0 +1,116 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #ccc;
+    }
+    
+    .hero {
+        background-image: url(../imagens/bg-3.jpg);
+        height: 500px;
+        background-position: right center;
+        background-size: cover;
+        border-top: 1px solid transparent;
+    }
+    
+    .hero-content {
+        text-align: center;
+        color: white;
+    }
+    
+    .hero-content h1 {
+        text-transform: uppercase;
+        font-size: 46px;
+        text-shadow: 3px 3px 5px rgb(0, 0, 0);
+        margin-top: 155px;
+    }
+    
+    .hero-content p {
+        background: rgba(0, 0, 0, 0.637);
+        display: inline-block;
+        padding: 10px;
+        border-bottom: 2px solid white;
+    }
+    
+    .hero nav ul {
+        text-align: right;
+        margin: 20px 20px;
+    }
+    
+    .hero nav li {
+        display: inline-block;
+        list-style: none;
+        border: 1px solid white;
+        margin-left: 5px;
+    }
+    
+    .hero nav a {
+        background: rgba(0, 0, 0, 0.068);
+        padding: 10px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    
+    .hero nav a:hover {
+        background: rgba(0, 0, 0, 0.384)
+    }
+    
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .content-section {
+        background-color: white;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+    }
+    
+    .card {
+        width: 32%;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .card-1,
+    .card-2 {
+        margin-right: 2%;
+    }
+    
+    .card img {
+        width: 100%;
+        display: block;
+    }
+    
+    .card p {
+        background-color: rgb(39, 38, 38);
+        color: white;
+        margin: 0;
+        padding: 15px;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .rodape {
+        height: 70px;
+        background-color: black;
+        margin-top: 15px;
+        width: 100%;
+        line-height: 70px;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    h2 {
+        background-color: #ccc;
+        border-bottom: solid 3px rgb(0, 0, 0);
+        font-size: 18px;
+        margin: auto;
+        padding: 15px;
+    }
